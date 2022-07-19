@@ -4,6 +4,7 @@
 #List the module the this rcfile will build
 modules = ['bigdft']
 skip = ["spglib", "PyYAML", "libyaml", "ntpoly"]
+conditions.add("testing")
 
 from os import environ
 prefix = environ["PREFIX"]
