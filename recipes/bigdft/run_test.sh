@@ -5,4 +5,4 @@ python test.py
 # Run a standard BigDFT test
 ls
 cd bigdft/tests/DFT/cubic
-short make check
+make check
