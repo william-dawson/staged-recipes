@@ -45,9 +45,11 @@ requirements:
 
 test:
   source_files:
-    - bigdft/tests/
+    - build/bigdft/tests/
   files:
     - test.py
+  requires:
+    - make
 
 about:
   home: https://bigdft.org
