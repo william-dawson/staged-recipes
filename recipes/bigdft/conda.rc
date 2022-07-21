@@ -14,6 +14,7 @@ def env_configuration():
     '''
     from sys import platform
     from os import environ
+    from os.path import join
     env = {}
     env["FC"] = "mpifort"
     env["CC"] = environ["CC_FOR_BUILD"]
@@ -24,6 +25,8 @@ def env_configuration():
     env["FCFLAGS"] += environ["FORTRANFLAGS"] + " -ldl"
     env["--with-ext-linalg"] = "-llapack -lblas"
     env["--with-yaml-path"] = prefix
+    env["--with-libabinit-incs"] = join(prefix, "include")
+    env["--with-libabinit-libs"] = join(prefix, "lib")
     return " ".join(['"' + x + '=' + y + '"' for x, y in env.items()])
 
 #here follow the configuration instructions for the modules built
