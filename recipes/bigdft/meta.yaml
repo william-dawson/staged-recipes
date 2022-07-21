@@ -37,6 +37,7 @@ requirements:
     - yaml
     - python
     - libxc =4.3.4
+    - abinit
     - ntpoly
     - setuptools
   run:
@@ -45,6 +46,7 @@ requirements:
     - scipy
     - numpy
     - pyyaml
+    - abinit
     - libxc =4.3.4
     - openssh  # [mpi == 'openmpi']
 
