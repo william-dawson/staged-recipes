@@ -8,7 +8,8 @@ package:
   version: {{ version }}
 
 source:
-  git_url: https://gitlab.com/l_sim/bigdft-suite.git
+  url: https://gitlab.com/l_sim/bigdft-suite/-/archive/1.9.3-RC/bigdft-suite-1.9.3-RC.tar.gz
+  md5: 326b3a2b0810c4f1ab13b4680d68f4e2
   patches:
     - patches/output.patch
     - patches/utils.patch
