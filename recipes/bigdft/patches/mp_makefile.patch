@@ -1,0 +1,13 @@
+diff --git a/atlab/src/Makefile.am b/atlab/src/Makefile.am
+index 2ecaa0a..5f89532 100644
+--- a/atlab/src/Makefile.am
++++ b/atlab/src/Makefile.am
+@@ -90,7 +90,7 @@ else
+ modules = f_functions.@MODULE_EXT@ \
+        f_harmonics.@MODULE_EXT@ \
+        numerics.@MODULE_EXT@ \
+-       multipole.@MODULE_EXT@ \
++       multipole_atlab.@MODULE_EXT@ \
+        at_domain.@MODULE_EXT@ \
+        at_babel.@MODULE_EXT@ \
+        box.@MODULE_EXT@ \
