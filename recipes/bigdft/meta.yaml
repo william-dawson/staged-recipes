@@ -13,6 +13,7 @@ source:
   patches:
     - patches/output.patch
     - patches/utils.patch
+    - patches/multipole.patch
 
 build:
   number: {{ build }}
