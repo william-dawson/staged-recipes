@@ -9,6 +9,6 @@ which bigdft
 ./bader -h
 
 # Check that PyBigDFT is Working
-python test.py
+#python test.py
 
 
