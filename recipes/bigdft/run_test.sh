@@ -2,7 +2,7 @@
 source bigdftvars.sh
 
 # Check that PyBigDFT is Working
-python test.py
+#python test.py
 
 # Check a few of the useful tools
 ./bigdft -h
