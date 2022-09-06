@@ -11,9 +11,9 @@ set -ex
 #test -f ${PREFIX}/lib/libPSolver-1.so.9
 
 # Check for header
-#test -f ${PREFIX}/include/bigdft.h
-#test -f ${PREFIX}/include/futile/tree.h
-#test -f ${PREFIX}/include/atlab/box.h
+test -f ${PREFIX}/include/bigdft.h
+test -f ${PREFIX}/include/futile/tree.h
+test -f ${PREFIX}/include/atlab/box.h
 
 # Setup the environment
 source bigdftvars.sh
