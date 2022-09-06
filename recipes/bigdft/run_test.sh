@@ -10,6 +10,9 @@ test -f ${PREFIX}/lib/libfutile-1.so.9
 #test -f ${PREFIX}/lib/liborbs.so.0
 test -f ${PREFIX}/lib/libPSolver-1.so.9
 
+echo "::::::LIBORBS SEARCH"
+ls ${PREFIX}/lib/*liborbs*
+
 # Check for header
 test -f ${PREFIX}/include/bigdft.h
 test -f ${PREFIX}/include/futile/tree.h
