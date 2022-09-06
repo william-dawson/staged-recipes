@@ -1,7 +1,7 @@
 set -ex
 
 # Check for expected libraries ABI
-test -f ${PREFIX}/lib/bigdft/libvol.so
+#test -f ${PREFIX}/lib/bigdft/libvol.so
 test -f ${PREFIX}/lib/libatlab-1.so.0
 test -f ${PREFIX}/lib/libbigdft-1.so.9
 test -f ${PREFIX}/lib/libCheSS-1.so.2
